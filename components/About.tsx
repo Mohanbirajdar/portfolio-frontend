@@ -50,12 +50,12 @@ export default function About() {
               </div>
               <div className="profile-stats">
                 <div className="stat-item">
-                  <span className="stat-number">3+</span>
+                  <span className="stat-number">1+</span>
                   <span className="stat-label">Years Exp</span>
                 </div>
                 <div className="stat-divider"></div>
                 <div className="stat-item">
-                  <span className="stat-number">15+</span>
+                  <span className="stat-number">20+</span>
                   <span className="stat-label">Projects</span>
                 </div>
                 <div className="stat-divider"></div>
