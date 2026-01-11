@@ -3,8 +3,13 @@
 import { personalInfo } from '@/data';
 
 export default function About() {
-  const openResume = () => {
-    window.open(personalInfo.resumeUrl, '_blank');
+  const downloadResume = () => {
+    const link = document.createElement('a');
+    link.href = personalInfo.resumeUrl;
+    link.download = 'Mohan_Birajdar_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -107,7 +112,7 @@ export default function About() {
               </div>
 
               <div className="about-actions">
-                <button className="resume-btn-new" onClick={openResume}>
+                <button className="resume-btn-new" onClick={downloadResume}>
                   <span className="btn-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                       <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>

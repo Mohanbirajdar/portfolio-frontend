@@ -21,7 +21,7 @@ I value a simple content structure, clean design patterns, and thoughtful intera
 
   // Contact & Social links
   email: "mohanbirajdar41@gmail.com",
-  resumeUrl: "/pdf/mohan-cv.pdf.pdf",
+  resumeUrl: "/pdf/mohan-cv.pdf",
   
   socialLinks: {
     instagram: "https://www.instagram.com/mohan_birajdar_/",
