@@ -3,13 +3,22 @@
 import { personalInfo } from '@/data';
 
 export default function About() {
-  const downloadResume = () => {
-    const link = document.createElement('a');
-    link.href = personalInfo.resumeUrl;
-    link.download = 'Mohan_Birajdar_Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const downloadResume = async () => {
+    try {
+      const response = await fetch(personalInfo.resumeUrl);
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'Mohan_Birajdar_Resume.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      // Fallback: open in new tab if download fails
+      window.open(personalInfo.resumeUrl, '_blank');
+    }
   };
 
   return (
