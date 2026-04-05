@@ -36,6 +36,114 @@ export const projects: Project[] = [
     ]
   },
   {
+    id: "pathai-platform",
+    title: "🚀 PathAI – AI-Powered Learning & Career Platform",
+    description: "A scalable full-stack platform that delivers personalized learning paths and career recommendations using LLM integration, user behavior analysis, and real-time job aggregation.",
+    favicon: "/webp/pathai.png",
+    previewImage: "/webp/pathai.png",
+    githubUrl: "https://github.com/your-username/pathai",
+    technologies: [
+      "Python",
+      "Next.js",
+      "PostgreSQL",
+      "REST APIs",
+      "LLM Integration",
+      "Web Scraping"
+    ],
+    category: "web",
+    date: "Nov 2025",
+    features: [
+      "Personalized learning paths using LLMs and user behavior analysis",
+      "Secure RESTful APIs with authentication and role-based access control",
+      "Job aggregation system using web scraping for real-time opportunities",
+      "Optimized PostgreSQL schema for managing user progress and skills",
+      "Expert validation system for ratings and hiring credibility"
+    ]
+  },
+  {
+  id: "fintrack-dashboard",
+  title: "💰 FinTrack — Modern Finance Dashboard",
+  description: "A highly interactive and animated personal finance dashboard with advanced analytics, AI-driven insights, and a fully featured admin panel for platform-level management.",
+  favicon: "/webp/fintrack.png",
+  previewImage: "/webp/fintrack.jpeg",
+  githubUrl: "https://github.com/your-username/fintrack",
+  liveUrl: "https://f-intech-ui.vercel.app/dashboard",
+  technologies: [
+    "Next.js 16",
+    "React 19",
+    "TypeScript",
+    "Tailwind CSS v4",
+    "Zustand v5",
+    "Framer Motion v12",
+    "Recharts v3",
+    "Sonner",
+    "Lucide React",
+    "date-fns"
+  ],
+  category: "web",
+  date: "2025",
+  features: [
+    "Animated onboarding flow with persistent state using Zustand",
+    "Interactive dashboard with charts, heatmaps, and smart financial insights",
+    "Advanced transaction management with filters, sorting, anomaly detection, and import/export",
+    "AI-style insights including spending patterns, savings rate, and recommendations",
+    "Budget and financial goals tracking with animated progress visualization",
+    "Dark/light theme with glassmorphism UI and smooth micro-interactions",
+    "Admin panel with user analytics, transaction monitoring, and reporting tools",
+    "Full state management with persistent storage and optimized performance",
+    "Highly animated UI using Framer Motion with spring physics and smooth transitions"
+  ]
+},
+  {
+  id: "clinkit-system",
+  title: "🏥 ClinKit — Clinical Trial Kit Optimization System",
+  description: "A full-stack web application for managing specimen kit logistics across multi-site clinical trials with ML-powered demand forecasting, real-time analytics, and automated alert systems.",
+  favicon: "/webp/clinkit.png",
+  previewImage: "/webp/clinkit.jpeg",
+  githubUrl: "https://github.com/your-username/clinkit",
+  liveUrl: "https://clinical-trial-kit-optimization-sys.vercel.app/",
+  technologies: [
+    "Next.js 14",
+    "React 18",
+    "TypeScript",
+    "Tailwind CSS",
+    "Drizzle ORM",
+    "MySQL (Aiven)",
+    "Zustand",
+    "Recharts",
+    "React Hook Form",
+    "Zod",
+    "NextAuth.js",
+    "TanStack Table",
+    "Lucide React",
+    "date-fns",
+    "FastAPI (Python)",
+    "scikit-learn",
+    "Docker"
+  ],
+  category: "web",
+  date: "2025",
+  features: [
+    "Real-time dashboard with KPIs — kits shipped, used, wasted, wastage %, active trials",
+    "Clinical trial management (Phase I–IV) with status tracking and sponsor details",
+    "Multi-site trial management with enrollment capacity and patient tracking",
+    "Comprehensive kit inventory system with lot tracking, expiry dates, and storage requirements",
+    "Smart expiry categorization — expired / expiring in 30 days / 30–60 days",
+    "Full shipment lifecycle tracking — preparing → shipped → in transit → delivered",
+    "Kit usage logging and auditing with wastage recording per site",
+    "Advanced analytics — monthly wastage trends, site-level usage charts, efficiency metrics",
+    "Intelligent alert system for low stock, expiry warnings, shipment delays, and high wastage",
+    "ML-powered demand forecasting using Ridge Regression with formula fallback",
+    "Type-safe database queries with Drizzle ORM and MySQL",
+    "Real-time data visualization with Recharts charts and heatmaps",
+    "Responsive admin dashboard with Tailwind CSS and shadcn/ui components",
+    "Full state management with Zustand for persistent application state",
+    "Server-side data access functions for optimized performance",
+    "REST API routes for all major entities and operations",
+    "Docker containerization for ML microservice deployment"
+  ]
+},
+  {
     id: "ras-dandiya",
     title: "🎭 Ras Dandiya",
     description: "A complete ticket booking platform for Malang Raas Dandiya 2025, an 8-day cultural event. Features multi-step booking flow, Razorpay payment integration, QR-based e-tickets with scanner functionality, video hero section with immersive animations, and Google Maps integration.",
@@ -93,6 +201,29 @@ export const projects: Project[] = [
       "PDO prepared statements for SQL injection prevention"
     ]
   },
+  {
+  id: "micro-skill-tracker",
+  title: "📚 Micro-Skill Learning Tracker",
+  description: "A comprehensive skill development platform designed to help users track learning progress, manage skills across multiple categories, maintain learning streaks, and organize learning resources. Features real-time progress tracking, learning log management, reflection capabilities, and a clean dashboard with comprehensive analytics.",
+  favicon: "/webp/micro-skill-tracker.png",
+  previewImage: "/webp/micro-skill-tracker.png",
+  liveUrl: "https://malangevents.com/micro-skill-tracker/",
+  technologies: ["PHP", "MySQL", "PDO", "JavaScript", "HTML5", "CSS3", "Font Awesome", "AJAX"],
+  category: "web",
+  date: "January 2026",
+  features: [
+    "User authentication and security with session management",
+    "Create and manage multiple skills with categories and learning goals",
+    "Real-time learning log tracking with time spent metrics",
+    "Day streak counter for motivation and consistency tracking",
+    "Learning resources management and organization",
+    "Reflections module for self-assessment and progress review",
+    "Dashboard with statistics including total skills, logs, streaks, and time",
+    "Responsive design with clean, intuitive UI",
+    "Database-backed persistence with PDO prepared statements",
+    "RESTful API endpoints for seamless frontend-backend communication"
+  ]
+},
   {
     id: "limitlock",
     title: "🚗 LimitLock",
