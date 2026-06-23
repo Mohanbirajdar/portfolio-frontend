@@ -98,7 +98,7 @@ export const projects: Project[] = [
     title: "🚀 PathAI – AI-Powered Learning & Career Platform",
     description: "A scalable full-stack platform that delivers personalized learning paths and career recommendations using LLM integration, user behavior analysis, and real-time job aggregation.",
     favicon: "/webp/pathai.png",
-    previewImage: "/webp/pathai.png",
+    previewImage: "/webp/pathai.jpeg",
     githubUrl: "https://github.com/your-username/pathai",
     technologies: [
       "Python",
