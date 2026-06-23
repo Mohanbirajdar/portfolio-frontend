@@ -40,7 +40,7 @@ export const projects: Project[] = [
     title: "🩺 NextStepDoctor — AI Medical Research Assistant",
     description: "Production-deployed platform delivering research-backed healthcare insights through a personalized conversational interface. Features an 8-stage RAG pipeline querying PubMed, OpenAlex, ClinicalTrials.gov, and FDA in parallel, with an agentic copilot and AES-256-GCM field-level encryption.",
     favicon: "/webp/nextstepdoctor.png",
-    previewImage: "/webp/nextstepdoctor.png",
+    previewImage: "/webp/nextstepdoctor.jpeg",
     liveUrl: "https://next-step-doctor.vercel.app",
     technologies: [
       "Next.js 15",
@@ -70,7 +70,7 @@ export const projects: Project[] = [
     title: "⚙️ VeriFlow AI — Multi-Agent SAP Compliance Engine",
     description: "A 4-agent LLM pipeline that automates compliance auditing for SAP transformation teams — replacing days of manual rule review with a structured, scored report. Each agent has a defined I/O contract, making the pipeline fully auditable and extensible.",
     favicon: "/webp/veriflow.png",
-    previewImage: "/webp/veriflow.png",
+    previewImage: "/webp/veriflow.jpeg",
     technologies: [
       "Node.js",
       "Express",
